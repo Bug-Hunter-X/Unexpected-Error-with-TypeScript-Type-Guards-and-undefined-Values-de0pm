@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in TypeScript related to type guards and the handling of undefined values.  The `greet` function is designed to accept a string or null. However, when an undefined value is passed, it throws an error rather than gracefully handling it as expected. The solution showcases how to properly address this by explicitly checking for undefined. 
